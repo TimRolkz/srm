@@ -13,3 +13,7 @@ def generate_random_vectors(N):
     # Об'єднання координат
     vectors = np.hstack((first_two_coords, third_coord))
     return vectors
+
+if __name__ == '__main__':
+    vectors_ = generate_random_vectors(1000)
+    print(vectors_)
